@@ -304,7 +304,7 @@ body {
 .detail-main .header-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 15px;
 }
 
@@ -522,7 +522,7 @@ div#not-found-message {
 }
 
 .featured-img a.arrow.right-arrow {
-    left: -2rem;
+    right: -2rem;
 }
 
 .detail-main.main {
