@@ -525,7 +525,7 @@ div#not-found-message {
     right: -2rem;
 }
 
-.detail-main.main {
+.detail-main main {
     height: max-content;
     border-color: transparent;
     background-color: transparent;

@@ -176,9 +176,9 @@ function displayPokemonDetails(pokemon) {
         });
     });
 
-    document.querySelector('.pokemon-detail-wrap .pokemon-detail p.body3-fonts.weight').textContent = `${weight / 10} kg`;
+    document.querySelector('.pokemon-detail-wrap .pokemon-detail p.body3-fonts.weight').textContent = `${weight / 10}kg`;
 
-    document.querySelector('.pokemon-detail-wrap .pokemon-detail p.body3-fonts.height').textContent = `${height / 10} kg`;
+    document.querySelector('.pokemon-detail-wrap .pokemon-detail p.body3-fonts.height').textContent = `${height / 10}m`;
 
     const abilitiesWrapper = document.querySelector('.pokemon-detail-wrap .pokemon-detail.move');
     abilities.forEach(({ ability }) => {
@@ -194,9 +194,9 @@ function displayPokemonDetails(pokemon) {
     const statNameMapping = {
         hp: "HP",
         attack: "ATK",
-        defence: "DEF",
+        defense: "DEF",
         "special-attack": "SATK",
-        "special-defence": "SDEF",
+        "special-defense": "SDEF",
         speed: "SPD",
     };
 
