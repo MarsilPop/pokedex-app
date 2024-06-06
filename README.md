@@ -1,4 +1,4 @@
-LIVE DEMO -- pokedex-api-hobby-project.netlify.app
+LIVE DEMO - https://pokedex-api-hobby-project.netlify.app/
 
 A Pokédex App build with vanila HTML / CSS / JavaScript
 The Pokédex features the 151 basic Pokémons
